@@ -17,6 +17,25 @@ export default
                     name: 'slug',
                     title: 'Slug',
                     type: 'slug',
+                    options: {
+                        source: 'name',
+                        maxLength: 96,
+
+                },
+
+                    name:'id',
+                    title:'ID',
+                    type:'number',
+
+                },
+
+                {
+                        name:'image',
+                        title:'Image',
+                        type:'image',
+                        
+
+
                 },
 
             {
