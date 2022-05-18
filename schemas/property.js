@@ -4,17 +4,15 @@ export default {
   type: 'document',
   fields: [
     {
-      name: 'name',
+      name: 'title',
       title: 'Title',
       type: 'string',
     },
-
     {
       name: 'location',
       title: 'Location',
       type: 'geopoint',
     },
-
     {
       name: 'propertyType',
       title: 'Property Type',
@@ -22,36 +20,30 @@ export default {
       options: {
         list: [
           { title: 'House', value: 'house' },
-          { title: 'Apartment', value: 'apartment' },
-          { title: 'Townhouse', value: 'townhouse' },
-          { title: 'Condo', value: 'condo' },
-          { title: 'Duplex', value: 'duplex' },
-          { title: 'Other', value: 'other' },
+          { title: 'Flat', value: 'flat' },
+          { title: 'Bed and Breakfast', value: 'bed-and-breakfast' },
+          { title: 'Boutique Hotel', value: 'boutique-hotel' },
         ],
         layout: 'radio',
       },
     },
-
     {
       name: 'mainImage',
-      title: 'Main image',
+      title: 'Main Image',
       type: 'image',
       options: {
         hotspot: true,
       },
     },
-
-    // Need to add a field for the property type
     {
       name: 'images',
       title: 'Images',
       type: 'array',
       of: [{ type: 'propertyImage' }],
     },
-
     {
       name: 'pricePerNight',
-      title: 'Price per night',
+      title: 'Price Per Night',
       type: 'number',
     },
     {
@@ -59,41 +51,35 @@ export default {
       title: 'Beds',
       type: 'number',
     },
-
     {
       name: 'bedrooms',
       title: 'Bedrooms',
       type: 'number',
     },
-
     {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
       options: {
         source: 'title',
-        maxLength: 96,
+        maxLength: 100,
       },
     },
-
     {
       name: 'id',
       title: 'ID',
       type: 'number',
     },
-
     {
       name: 'description',
       title: 'Description',
       type: 'string',
     },
-
     {
       name: 'host',
       title: 'host',
       type: 'host',
     },
-
     {
       name: 'reviews',
       title: 'Reviews',
@@ -101,4 +87,10 @@ export default {
       of: [{ type: 'review' }],
     },
   ],
+  preview: {
+    select: {
+      title: 'title',
+      pricePerNight: 'pricePerNight',
+    },
+  },
 }

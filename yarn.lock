@@ -1296,6 +1296,11 @@
   resolved "https://registry.npmjs.org/@sanity/color/-/color-2.1.10.tgz#b92e59818600c3d8295b057cf0e8236e7f3b0143"
   integrity sha512-t1rV2/WAECqyKziAhAxgpHh9oLQuIUGvHlV/jSboAG4K8/HeRPF8WWiGak/B32uiPl6lOpw3oM4BonYmPLb2+Q==
 
+"@sanity/components@^2.14.0":
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/@sanity/components/-/components-2.14.0.tgz#840d8e98fd55f35e2db2b211310c983b9f78cac4"
+  integrity sha512-D8t7l+exvw1cg80m8yDZDRboAI6L827FeCacGjTOdElvgrR2shtsbepYui7ODfRgx9ynAceNDsQ1VSNnUgIHug==
+
 "@sanity/core@^2.30.0":
   version "2.30.0"
   resolved "https://registry.npmjs.org/@sanity/core/-/core-2.30.0.tgz#63c3fdb0e161b496961c249e11a3a67828448a0e"
@@ -5209,6 +5214,11 @@ groq-js@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npmjs.org/groq-js/-/groq-js-0.2.0.tgz#abd4870014a1ccdf0936d5d75a78063aff9197c0"
   integrity sha512-qJeuEgziddryH1ClsJvMoZM9aXNQbBViNZZrJwhHKr2wU8HGGM7uNWNVFglWXMX60MMaa2SClX3UohP76Ut68g==
+
+groq@^2.29.3:
+  version "2.29.3"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-2.29.3.tgz#e767152202ab6aad64b2c33dfc904ee4e4c16d8e"
+  integrity sha512-j3HFq8Qwg36rREp2Xl2vecUz47LX6cedD8cqq+JKX0iNj9yiwelOSKpRS5jxhkDZQv5xBAiqtpU2Ylv5DQ5g2A==
 
 gunzip-maybe@^1.4.1:
   version "1.4.2"
